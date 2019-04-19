@@ -9,12 +9,53 @@ import quantities as pq
 # file_groups = {'Test': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319_B1_control.txt'}
 # fnames_test = (r'/Volumes/TOSHIBA/Muscimol/L6_control_expts/20032019/recording_pip/muscimol experiments/26062018_1211_rec_pip_before_musci_B2_trial1_Data.smr',)
 
-file_groups = {'B2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319_B2_control.txt',
-               'C2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319_C2_control.txt',
-               'D3 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319_D3_control.txt',
-               'B2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319_B2_muscimol.txt',
-               'C2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319_C2_muscimol.txt',
-               'D3 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319_D3_muscimol.txt'}
+# 200319
+# file_groups = {'B2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319/200319_B2_control.txt',
+#                'C2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319/200319_C2_control.txt',
+#                'D3 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319/200319_D3_control.txt',
+#                'B2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319/200319_B2_muscimol.txt',
+#                'C2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319/200319_C2_muscimol.txt',
+#                'D3 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/200319/200319_D3_muscimol.txt'}
+
+# 220319
+# file_groups = {'B2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/220319/220319_B2_control.txt',
+#                'C2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/220319/220319_C2_control.txt',
+#                'D2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/220319/220319_D2_control.txt',
+#                'B2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/220319/220319_B2_muscimol.txt',
+#                'C2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/220319/220319_C2_muscimol.txt',
+#                'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/220319/220319_D2_muscimol.txt'}
+
+# 030419
+# file_groups = {'C1 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_C1_control.txt',
+#                'D2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_D2_control.txt',
+#                'E2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_E2_control.txt',
+#                'C1 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_C1_muscimol.txt',
+#                'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_D2_muscimol.txt',
+#                'E2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_E2_muscimol.txt'}
+
+# 020419
+# file_groups = {'B2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_B2_control.txt',
+               # 'C2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_C2_control.txt',
+               # 'D2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_D2_control.txt',
+               # 'B2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_B2_muscimol.txt',
+               # 'C2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_C2_muscimol.txt',
+               # 'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_D2_muscimol.txt'}
+
+# 100419
+# file_groups = {'C2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/100419/100419_C2_control.txt',
+#                'D2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/100419/100419_D2_control.txt',
+#                'E2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/100419/100419_E2_control.txt',
+#                'C2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/100419/100419_C2_muscimol.txt',
+#                'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/100419/100419_D2_muscimol.txt',
+#                'E2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/100419/100419_E2_muscimol.txt'}
+
+# 120419
+file_groups = {'B2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_B2_control.txt',
+               'C2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_C2_control.txt',
+               'D2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_D2_control.txt',
+               'B2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_B2_muscimol.txt',
+               'C2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_C2_muscimol.txt',
+               'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_D2_muscimol.txt'}
 
 
 def _load_group_fnames():
@@ -211,14 +252,74 @@ def event_aligned_spikes(events, spikes, group):
     plt.show()
 
 
+def event_aligned_lfp(fnames, group):
+    # load all files and automatically extract event-aligned LFP
+    # compute event-aligned mean and SE
+    # display per file and total and save
+    all_traces = []
+    traces_per_file = {}
+    lfp_window_duration = 0.1 # in s
+    for i, name in enumerate(fnames):
+        vm, lfp, whisker_deflections = _load_whisker_deflection_signals_spike2(name)
+        whisker_deflection_samples = np.round(whisker_deflections.magnitude*lfp.sampling_rate.magnitude)
+        lfp_window_samples = int(lfp_window_duration*lfp.sampling_rate.magnitude + 0.5)
+        traces_per_file[name] = []
+        for deflection in whisker_deflection_samples:
+            deflection = int(deflection)
+            snippet = lfp[deflection: deflection + lfp_window_samples]
+            all_traces.append(snippet)
+            traces_per_file[name].append(snippet)
+
+    nr_subplots = len(traces_per_file) + 1
+    plt.figure(1)
+    ax1 = plt.subplot(nr_subplots, 1, 1)
+    total_mean = np.mean(all_traces, axis=0)
+    total_se = np.std(all_traces, axis=0)/np.sqrt(len(all_traces))
+    time_axis = all_traces[0].times - np.min(all_traces[0].times)
+    xlims = (np.min(time_axis), np.max(time_axis))
+    ax1.plot(time_axis, total_mean, 'r')
+    ax1.plot(time_axis, total_mean + 2*total_se, 'r--', linewidth=0.5)
+    ax1.plot(time_axis, total_mean - 2*total_se, 'r--', linewidth=0.5)
+    ax1.set_xlim(xlims)
+    ax1.set_ylabel('LFP (mV)')
+    ax1.set_title('%s mean LFP' % group)
+
+    axes = []
+    names = traces_per_file.keys()
+    names.sort()
+    for i, name in enumerate(names):
+        file_traces = traces_per_file[name]
+        file_mean = np.mean(file_traces, axis=0)
+        file_se = np.std(file_traces, axis=0)/np.sqrt(len(file_traces))
+        tmp_ax = plt.subplot(nr_subplots, 1, i + 2, sharex=ax1)
+        tmp_ax.plot(time_axis, file_mean, 'k')
+        tmp_ax.plot(time_axis, file_mean + 2*file_se, 'k--', linewidth=0.5)
+        tmp_ax.plot(time_axis, file_mean - 2*file_se, 'k--', linewidth=0.5)
+        tmp_ax.set_xlim(xlims)
+        tmp_ax.set_ylabel('LFP (mV)')
+        if i == len(traces_per_file) - 1:
+            tmp_ax.set_xlabel('Time post-stim. (s)')
+        title_str = os.path.split(name)[-1]
+        tmp_ax.set_title(title_str)
+        axes.append(tmp_ax)
+
+    plt.savefig(_change_group_name_suffix(group, '_LFP.pdf'))
+    plt.show()
+
+
 def main():
-    mode = raw_input('Spike analysis (S) or file viewer (V): ')
+    mode = raw_input('Spike analysis (S), LFP (L) or file viewer (V): ')
     if mode == 'S':
         file_group_names = _load_group_fnames()
         for group in file_group_names:
             fnames = file_group_names[group]
             events, spikes = view_recordings(fnames)
             event_aligned_spikes(events, spikes, group)
+    elif mode == 'L':
+        file_group_names = _load_group_fnames()
+        for group in file_group_names:
+            fnames = file_group_names[group]
+            event_aligned_lfp(fnames, group)
     elif mode == 'V':
         fname = raw_input('Filename: ')
         view_recordings([fname], detect_spikes=False)
