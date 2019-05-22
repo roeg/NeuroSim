@@ -26,20 +26,20 @@ import quantities as pq
 #                'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/220319/220319_D2_muscimol.txt'}
 
 # 030419
-# file_groups = {'C1 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_C1_control.txt',
-#                'D2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_D2_control.txt',
-#                'E2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_E2_control.txt',
-#                'C1 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_C1_muscimol.txt',
-#                'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_D2_muscimol.txt',
-#                'E2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/030419/030419_E2_muscimol.txt'}
+# file_groups = {'C1 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/030419/030419_C1_control.txt',
+#                'D2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/030419/030419_D2_control.txt',
+#                'E2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/030419/030419_E2_control.txt',
+#                'C1 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/030419/030419_C1_muscimol_100trials.txt',
+#                'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/030419/030419_D2_muscimol_100trials.txt',
+#                'E2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/030419/030419_E2_muscimol_100trials.txt'}
 
 # 020419
-# file_groups = {'B2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_B2_control.txt',
-               # 'C2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_C2_control.txt',
-               # 'D2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_D2_control.txt',
-               # 'B2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_B2_muscimol.txt',
-               # 'C2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_C2_muscimol.txt',
-               # 'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_SupraGra/020419/020419_D2_muscimol.txt'}
+file_groups = {'B2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/020419/020419_B2_control.txt',
+               # 'C2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/020419/020419_C2_control.txt',
+               # 'D2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/020419/020419_D2_control.txt',
+               'B2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/020419/020419_B2_muscimol.txt'}#,
+               # 'C2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/020419/020419_C2_muscimol.txt',
+               # 'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_SupraGra/020419/020419_D2_muscimol.txt'}
 
 # 100419
 # file_groups = {'C2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/100419/100419_C2_control.txt',
@@ -50,12 +50,12 @@ import quantities as pq
 #                'E2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/100419/100419_E2_muscimol.txt'}
 
 # 120419
-file_groups = {'B2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_B2_control.txt',
-               'C2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_C2_control.txt',
-               'D2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_D2_control.txt',
-               'B2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_B2_muscimol.txt',
-               'C2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_C2_muscimol.txt',
-               'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_L6b/120419/120419_D2_muscimol.txt'}
+# file_groups = {'B2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_L6b/120419/120419_B2_control.txt',
+#                'C2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_L6b/120419/120419_C2_control.txt',
+#                'D2 control': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_L6b/120419/120419_D2_control.txt',
+#                'B2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_L6b/120419/120419_B2_muscimol.txt',
+#                'C2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_L6b/120419/120419_C2_muscimol.txt',
+#                'D2 muscimol': '/Users/robert/Desktop/Neuron_Rev1/Muscimol_Control/Muscimol_L6b/120419/120419_D2_muscimol.txt'}
 
 
 def _load_group_fnames():
@@ -77,7 +77,7 @@ def _load_group_fnames():
 def _load_whisker_deflection_signals_spike2(fname):
     # channel indices in Rajeev's recordings
     VM = 1
-    LFP = 4
+    LFP = 3
     WHISKER = 1
     r = Spike2IO(fname)
     blocks = r.read()
@@ -111,11 +111,9 @@ def _save_psth(group, bins, psth):
             psth_file.write(line)
 
 
-def _filter_trace(signal):
+def _filter_trace(signal, low=300.0, high=5000.0):
     filter_order = 3 # Daniel used 6th order with forward only filter
     fs = signal.sampling_rate.magnitude
-    low = 300.0
-    high = 5000.0
     sos = butter(filter_order, (low, high), btype='band', fs=fs, output='sos')
     print 'Filtering signal...'
     tmp_signal = signal.magnitude.flatten()
@@ -131,10 +129,12 @@ def _detect_spikes(signal, threshold):
     # threshold *= signal.units
     threshold_crossings = []
     tmp = signal.magnitude
+    print 'Filtering signal...'
     for i in range(1, len(tmp)):
         if tmp[i - 1] <= threshold and tmp[i] > threshold:
             threshold_crossings.append(signal.times[i])
     # throw out ISIs below refractory period
+    print '...done!'
     ISIs = np.diff(threshold_crossings)
     # shift everything left by 1 index because ISI[i] is between spike[i] and spike[i+1]
     # but we want to throw out spike[i+1]
@@ -260,7 +260,9 @@ def event_aligned_lfp(fnames, group):
     traces_per_file = {}
     lfp_window_duration = 0.1 # in s
     for i, name in enumerate(fnames):
-        vm, lfp, whisker_deflections = _load_whisker_deflection_signals_spike2(name)
+        vm, lfp_, whisker_deflections = _load_whisker_deflection_signals_spike2(name)
+        # lfp = _filter_trace(vm, low=1.0, high=300.0) # for recording pip
+        lfp = _filter_trace(lfp_, low=1.0, high=300.0) # for injection pip
         whisker_deflection_samples = np.round(whisker_deflections.magnitude*lfp.sampling_rate.magnitude)
         lfp_window_samples = int(lfp_window_duration*lfp.sampling_rate.magnitude + 0.5)
         traces_per_file[name] = []
@@ -270,39 +272,43 @@ def event_aligned_lfp(fnames, group):
             all_traces.append(snippet)
             traces_per_file[name].append(snippet)
 
-    nr_subplots = len(traces_per_file) + 1
+    # nr_subplots = len(traces_per_file) + 1
+    nr_subplots = 1
     plt.figure(1)
     ax1 = plt.subplot(nr_subplots, 1, 1)
-    total_mean = np.mean(all_traces, axis=0)
-    total_se = np.std(all_traces, axis=0)/np.sqrt(len(all_traces))
+    total_mean = np.mean(all_traces, axis=0).flatten()
+    total_se = np.std(all_traces, axis=0).flatten()/np.sqrt(len(all_traces))
     time_axis = all_traces[0].times - np.min(all_traces[0].times)
     xlims = (np.min(time_axis), np.max(time_axis))
     ax1.plot(time_axis, total_mean, 'r')
-    ax1.plot(time_axis, total_mean + 2*total_se, 'r--', linewidth=0.5)
-    ax1.plot(time_axis, total_mean - 2*total_se, 'r--', linewidth=0.5)
+    ax1.fill_between(time_axis, total_mean + total_se, total_mean - total_se, facecolors='r', alpha=0.4)
+    # ax1.plot(time_axis, total_mean + total_se, 'r--', linewidth=0.5)
+    # ax1.plot(time_axis, total_mean - total_se, 'r--', linewidth=0.5)
     ax1.set_xlim(xlims)
     ax1.set_ylabel('LFP (mV)')
     ax1.set_title('%s mean LFP' % group)
 
-    axes = []
-    names = traces_per_file.keys()
-    names.sort()
-    for i, name in enumerate(names):
-        file_traces = traces_per_file[name]
-        file_mean = np.mean(file_traces, axis=0)
-        file_se = np.std(file_traces, axis=0)/np.sqrt(len(file_traces))
-        tmp_ax = plt.subplot(nr_subplots, 1, i + 2, sharex=ax1)
-        tmp_ax.plot(time_axis, file_mean, 'k')
-        tmp_ax.plot(time_axis, file_mean + 2*file_se, 'k--', linewidth=0.5)
-        tmp_ax.plot(time_axis, file_mean - 2*file_se, 'k--', linewidth=0.5)
-        tmp_ax.set_xlim(xlims)
-        tmp_ax.set_ylabel('LFP (mV)')
-        if i == len(traces_per_file) - 1:
-            tmp_ax.set_xlabel('Time post-stim. (s)')
-        title_str = os.path.split(name)[-1]
-        tmp_ax.set_title(title_str)
-        axes.append(tmp_ax)
+    # axes = []
+    # names = traces_per_file.keys()
+    # names.sort()
+    # for i, name in enumerate(names):
+    #     file_traces = traces_per_file[name]
+    #     file_mean = np.mean(file_traces, axis=0).flatten()
+    #     file_se = np.std(file_traces, axis=0).flatten()/np.sqrt(len(file_traces))
+    #     tmp_ax = plt.subplot(nr_subplots, 1, i + 2, sharex=ax1)
+    #     tmp_ax.plot(time_axis, file_mean, 'k')
+    #     tmp_ax.fill_between(time_axis, file_mean + file_se, file_mean - file_se, facecolors='k', alpha=0.4)
+    #     # tmp_ax.plot(time_axis, file_mean + file_se, 'k--', linewidth=0.5)
+    #     # tmp_ax.plot(time_axis, file_mean - file_se, 'k--', linewidth=0.5)
+    #     tmp_ax.set_xlim(xlims)
+    #     tmp_ax.set_ylabel('LFP (mV)')
+    #     if i == len(traces_per_file) - 1:
+    #         tmp_ax.set_xlabel('Time post-stim. (s)')
+    #     title_str = os.path.split(name)[-1]
+    #     tmp_ax.set_title(title_str)
+    #     axes.append(tmp_ax)
 
+    # plt.savefig(_change_group_name_suffix(group, '_LFP_recording_pip.pdf'))
     plt.savefig(_change_group_name_suffix(group, '_LFP.pdf'))
     plt.show()
 
